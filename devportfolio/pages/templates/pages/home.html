@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
 </head>
+<ul>
+    <li><a href="{% url 'home' %}">Home</a></li>
+    <li><a href="{% url 'contact' %}">Contact</a></li>
+    <li><a href="{% url 'about' %}">About</a></li>
+    <li><a href="{% url 'work' %}">My Work</a></li>
+</ul>
 <body>
     <h1>Welcome to the Home Page</h1>
+    <p>Here you will see my information</p>
 </body>
 </html>
 
